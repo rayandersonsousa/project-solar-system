@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage } = this.pros;
+    const { planetName, planetImage } = this.props;
 
     return (
       <div data-testid="planet-card">
@@ -14,7 +14,7 @@ class PlanetCard extends React.Component {
   }
 }
 
-PlanetCard.propTrypes = {
+PlanetCard.propTypes = {
   planetName: PropTypes.string,
   planetImage: PropTypes.string,
 }.isRequired;
