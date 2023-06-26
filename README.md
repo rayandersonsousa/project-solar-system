@@ -8,7 +8,7 @@ Neste projeto desenvolvi uma página que lista todos os planetas do Sistema Sola
 
 ## Rodando o projeto
 
-1. Cole o repositório
+1. Clone o repositório
    - Use o comando: `git clone git@github.com:rayandersonsousa/project-solar-system.git`
    - Entre na pasta do projeto: `cd project-solar-system`
 2. Instale as dependências do projeto
